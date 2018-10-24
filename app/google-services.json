@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565936582109",
+    "firebase_url": "https://easycard-187b1.firebaseio.com",
+    "project_id": "easycard-187b1",
+    "storage_bucket": "easycard-187b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565936582109:android:b856ceb4f171c2bc",
+        "android_client_info": {
+          "package_name": "com.blackholedevelopment.easycard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565936582109-buj9tufbud1q2h5sh04b0mq8i8rifb4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blackholedevelopment.easycard",
+            "certificate_hash": "391dc2ecd8188f700f8b452145f7b27b27df8638"
+          }
+        },
+        {
+          "client_id": "565936582109-8ammqii3lue9hr85ggc0ef0728dhlhkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jvfk6oSpATB0j2A7D5FzWcVHV8-cNhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565936582109-8ammqii3lue9hr85ggc0ef0728dhlhkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
