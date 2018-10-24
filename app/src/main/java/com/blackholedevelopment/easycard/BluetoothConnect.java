@@ -65,7 +65,7 @@ public class BluetoothConnect extends AppCompatActivity {
                 if (bluetoothAdapter.isEnabled()) {
                     if (!connected) {
                         Set<BluetoothDevice> pairedDevices = bluetoothAdapter.getBondedDevices();
-                        Set<BluetoothDevice> unpairedDevices = new HashSet<BluetoothDevice>(mDeviceList);
+                        Set<BluetoothDevice> unpairedDevices = new HashSet<BluetoothDevice>(mDeviceList);//
                         unpairedDevices.removeAll(pairedDevices);
 
                         if ((unpairedDevices == null || unpairedDevices.size() == 0) && (pairedDevices == null || pairedDevices.size() == 0)) {
